@@ -10,7 +10,7 @@ name: Microsoft C++ Code Analysis
     branches: [ "development" ]
   pull_request:
     branches: [ "development" ]
-  schedule:
+  run:
     - cron: '29 9 * * 5'
 
 env:
