@@ -6,10 +6,8 @@
 # https://github.com/microsoft/msvc-code-analysis-action
 
 name: Microsoft C++ Code Analysis
-
-on:
-  push:
-    branches: [ "development" ]
+  branches:[ "master/main" ]
+ 
   pull_request:
     branches: [ "development" ]
   schedule:
